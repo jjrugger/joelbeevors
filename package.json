@@ -24,9 +24,12 @@
   "dependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.5.5",
+    "@parallaxagency/conditioner": "^0.0.6",
     "autoprefixer": "^9.6.0",
     "core-js": "2",
+    "focus-visible": "^5.0.2",
     "postcss-easy-import": "^3.0.0",
-    "precss": "^4.0.0"
+    "precss": "^4.0.0",
+    "promise-polyfill": "^8.1.3"
   }
 }

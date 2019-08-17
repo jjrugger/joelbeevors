@@ -139,12 +139,7 @@ module.exports = {
       '56': '14rem',
       '64': '16rem',
     },
-    screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-    },
+    screens: require('./source/_assets/js/tailwind.screens.js'),
     fontFamily: {
       sans: [
         '-apple-system',
@@ -235,7 +230,9 @@ module.exports = {
       '8': '8px',
     },
     borderColor: theme => {
-      return global.Object.assign({ default: theme('colors.gray.300', 'currentColor') }, theme('colors'))
+      return global.Object.assign({
+        default: theme('colors.gray.300', 'currentColor')
+      }, theme('colors'))
     },
     borderRadius: {
       none: '0',

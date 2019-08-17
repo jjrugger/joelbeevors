@@ -2,29 +2,29 @@
 
 @section('content')
 
-<main class="bg-blue-100 min-h-screen flex justify-center flex-col items-center">
-    <h1 class="font-light text-6xl text-blue-900 leading-none"><span class="font-medium">Hack</span><span class="italic">saw</span></h1>
-    <p class="text-blue-800 mt-2">Thank <em>f#&k</em> for the JAMstack</p>
-    <ul class="flex flex-wrap justify-center items-center -mx-2 mt-6">
-        @include('_partials.logo', [
-            'src' => '/assets/img/svg/tailwind.svg',
-            'href' => 'https://tailwindcss.com/docs/installation/',
-            'alt' => 'Tailwind',
-            'width' => 150
-        ])
-        @include('_partials.logo', [
-            'src' => '/assets/img/svg/jigsaw.svg',
-            'href' => 'https://jigsaw.tighten.co/docs/installation/',
-            'alt' => 'Jigsaw',
-            'width' => 40
-        ])
-        @include('_partials.logo', [
-            'src' => '/assets/img/svg/babel.svg',
-            'href' => 'https://babeljs.io/docs/en/',
-            'alt' => 'Babel',
-            'width' => 100
-        ])
-    </ul>
+<header class="bg-header min-h-screen flex justify-center flex-col items-center relative overflow-hidden">
+    <div class="relative z-10 text-center">
+        <h1 class="font-light text-6xl text-white leading-none">Joel Beevors</h1>
+        <p class="text-white mt-2">Welcome</p>
+        <a href="https://open.spotify.com/playlist/0njcIjDU0kMJpTSW5MVpJr?si=1u1rFdX0R5mbnG8eNKt-kA" class="text-white no-underline" target="_blank">
+            <span class="sr-only">Spotify</span>
+            @include('_partials.spotify', [
+                'class' => 'w-8 h-8 block mx-auto mt-2'
+            ])
+        </a>
+    </div>
+    <canvas
+        data-context="was @idle"
+        data-module="particles"
+        data-particle-color="rgba(255, 255, 255, .5)"
+        data-line-color="rgba(255, 255, 255, .025)"
+        class="absolute inset-0 overlay animated no-js"
+    ></canvas>
+</header>
+<main class="bg-gray-100 min-h-screen flex justify-center flex-col items-center relative">
+    <h1 class="font-light text-6xl text-gray-900 leading-none">Joel Beevors</h1>
+    <p class="text-gray-800 mt-2">Joel Beevors</p>
 </main>
+
 
 @endsection

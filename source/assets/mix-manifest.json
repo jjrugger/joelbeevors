@@ -1,8 +1,10 @@
 {
-    "/js/main.js": "/js/main.js?id=84c7f76b910b16a8b160",
-    "/css/main.css": "/css/main.css?id=8eb7da2d3b9f16af5629",
+    "/js/main.js": "/js/main.js?id=99f7ba327b806535f804",
+    "/css/main.css": "/css/main.css?id=213cbec7ee54d60025b9",
+    "/../assets/js/conditionerPlugin0.js": "/../assets/js/conditionerPlugin0.js?id=93c793b64fec467c29d4",
+    "/../assets/js/vendors~conditionerPlugin0.js": "/../assets/js/vendors~conditionerPlugin0.js?id=5c76ac052dec268b254a",
+    "/img/header-background.jpg": "/img/header-background.jpg?id=a5e18cd5593e7c79087c",
     "/img/svg/babel.svg": "/img/svg/babel.svg?id=e75db39982e8060533ee",
     "/img/svg/jigsaw.svg": "/img/svg/jigsaw.svg?id=2024ee08824f627c6b0a",
-    "/img/svg/tailwind.svg": "/img/svg/tailwind.svg?id=4c028289e6eb809e932f",
-    "/img/svg/webpack.svg": "/img/svg/webpack.svg?id=a6125bf239eec21770d1"
+    "/img/svg/tailwind.svg": "/img/svg/tailwind.svg?id=4c028289e6eb809e932f"
 }

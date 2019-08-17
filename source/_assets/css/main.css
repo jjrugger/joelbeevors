@@ -3,3 +3,34 @@
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';
+
+
+.bg-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url('../img/header-background.jpg');
+    @apply bg-center bg-fixed bg-cover;
+}
+
+.overlay {
+    mix-blend-mode: overlay;
+}
+
+.no-js {
+    @apply opacity-0;
+}
+
+.animated {
+    transition: .2s ease-in-out;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
