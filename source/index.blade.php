@@ -14,7 +14,7 @@
         </a>
     </div>
     <canvas
-        data-context="was @idle"
+        data-context="was @idle and @screen sm"
         data-module="particles"
         data-particle-color="rgba(255, 255, 255, .5)"
         data-line-color="rgba(255, 255, 255, .025)"
